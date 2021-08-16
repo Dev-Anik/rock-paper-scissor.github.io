@@ -1,0 +1,102 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+section{
+	height: 100vh;
+	background-color: #002366;
+}
+.score{
+	height: 25vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ 
+ h2{
+ 	color: white;
+ 	font-family: 'Indie Flower', cursive;
+ }
+ p{
+ 	text-align: center;
+ 	color: white;
+ 	margin-top: 5px;
+ 	font-size: 2rem;
+ 	font-family: 'Indie Flower', cursive;
+ }
+ .intro{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	height: 30vh;
+ 	transition: opacity 0.5s ease ;
+ 	
+ }
+ .intro h1{
+ 	text-align: center;
+ 	color: white;
+ font-family: 'Indie Flower', cursive;
+ font-size: 3rem;
+ }
+ button{
+ 	text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color:#28ffbfc4;
+    font-family: 'Indie Flower', cursive;
+    height: 40px;
+    width: 150px;
+    color: #2C2E43;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ button:hover{
+ 	background-color: #28FFBF;
+ }
+ .match{
+ 	position: absolute;
+ 	top: 55%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+
+ }
+ .winner{
+ 	text-align: center;
+ 	font-size: 3rem;
+ }
+ .hands, .option{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ }
+ .player-hand{
+ 	transform:rotateY(180deg);
+ }
+ div.fadeout{
+ 	opacity: 0;
+ 	pointer-events: none;
+ }
+ div.fadein{
+ 	opacity: 1;
+ 	pointer-events: all;
+ }
+ .play-again{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	position: absolute;
+ 	top: 40%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+
+ }
+ .play-again button{
+ 	margin-top: 50px;
+ }
+

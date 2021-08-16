@@ -1,0 +1,84 @@
+@media screen and (max-width: 480px){
+  
+*{
+
+}
+section{
+
+}
+.score{
+
+}
+h2{
+    font-size: 1.5rem;
+   
+    text-align: center;
+    line-height: 50px;
+}
+}
+p{
+
+}
+.intro{
+ 	margin-top: -30px;
+ }
+ .intro h1{
+ 	font-size: 2rem;
+    line-height: 66px;
+ }
+ button{
+ 	height: 50px;
+    width: 115px;
+    margin:8px;
+ }
+ .rock{
+height: 50px;
+    width: 90px;
+ }
+ .paper{
+height: 50px;
+    width: 90px;
+ }
+ .scissor{
+ 	height: 50px;
+    width: 90px;
+ }
+ .match{
+ 	margin-top: -60px;
+ 	
+ }
+ .winner{
+ 	font-size: 1.8rem;
+ }
+ .hands{
+ 	justify-content: center;
+ }
+ .hands, .option{
+ 	justify-content: center;
+ 	margin-top: 35px;
+ }
+ .player-hand{
+ 	    width: auto;
+    height: 180px;
+ }
+ .computer-hand{
+ 	    width: auto;
+    height: 180px;
+ }
+ div.fadeout{
+ 	
+ }
+ div.fadein{
+ 	
+ }
+ .play-again{
+ 	    width: 288px;
+
+ }
+ .play-again button{
+ 	
+ }
+
+
+
+}
