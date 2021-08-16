@@ -19,14 +19,15 @@ section{
  
  h2{
  	color: white;
- 	font-family: 'Indie Flower', cursive;
+font-family: 'Merriweather', serif;
+ 	text-align: center;
  }
  p{
  	text-align: center;
  	color: white;
  	margin-top: 5px;
  	font-size: 2rem;
- 	font-family: 'Indie Flower', cursive;
+ 	font-family: 'Merriweather', serif;
  }
  .intro{
  	display: flex;
@@ -40,7 +41,7 @@ section{
  .intro h1{
  	text-align: center;
  	color: white;
- font-family: 'Indie Flower', cursive;
+font-family: 'Merriweather', serif;
  font-size: 3rem;
  }
  button{
@@ -48,7 +49,7 @@ section{
     border-style: none;
     border-radius: 5px;
     background-color:#28ffbfc4;
-    font-family: 'Indie Flower', cursive;
+ font-family: 'Merriweather', serif;
     height: 40px;
     width: 150px;
     color: #2C2E43;
