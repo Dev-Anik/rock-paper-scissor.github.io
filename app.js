@@ -108,21 +108,25 @@ if(playerChoice==="paper"){
 };
  function finalWinner(){
  	if(pScore===5){
- 		pScore=0;
- 		cScore=0;
+ 	
  		const pBoard=document.querySelector(".first p");
 	const cBoard=document.querySelector(".second p");
 	pBoard.textContent=`${pScore}`;
 	cBoard.textContent=`${cScore}`;
+	
  		const finalResult=document.querySelector(".score");
  		let  gameVanish=document.querySelector(".match");
  		let afterWin=document.querySelector(".play-again");
  		let winnerName=document.querySelector(".play-again h2");
+ 		let winnerScore=document.querySelector(".play-again h1");
  		let playAgain=document.querySelector(".play-again button");
  		finalResult.classList.add("fadeout");
  		gameVanish.classList.remove("fadein");
  		afterWin.classList.add("fadein");
+ 		winnerScore.textContent=`${pName} = ${pScore}\u00A0\u00A0\u00A0Computer = ${cScore}`;
  		winnerName.textContent=`Winner,Winner Beef Burger ! Congratulations ${pName} !!`;
+ 		pScore=0;
+ 		cScore=0;
  		playAgain.addEventListener("click",function(){
  			finalResult.classList.remove("fadeout");
 gameVanish.classList.add("fadein");
@@ -131,21 +135,25 @@ gameVanish.classList.add("fadein");
 
  	}
  	if(cScore===5){
- 		pScore=0;
- 		cScore=0;
+ 		
  		const pBoard=document.querySelector(".first p");
 	const cBoard=document.querySelector(".second p");
 	pBoard.textContent=`${pScore}`;
 	cBoard.textContent=`${cScore}`;
+	
  		const finalResult1=document.querySelector(".score");
  		let  gameVanish=document.querySelector(".match");
  		let afterWin=document.querySelector(".play-again");
+ 		let winnerScore=document.querySelector(".play-again h1");
  		let winnerName=document.querySelector(".play-again h2");
  		let playAgain=document.querySelector(".play-again button");
  		finalResult1.classList.add("fadeout");
  		gameVanish.classList.remove("fadein");
  		afterWin.classList.add("fadein");
+ 		winnerScore.textContent=`${pName} = ${pScore} \u00A0\u00A0\u00A0 Computer = ${cScore}`;
  		winnerName.textContent=`Oooppss! Computer is the Winner !`;
+ 		pScore=0;
+ 		cScore=0;
  		playAgain.addEventListener("click",function(){
  			finalResult1.classList.remove("fadeout");
  			gameVanish.classList.add("fadein");
