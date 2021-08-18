@@ -101,3 +101,8 @@ font-family: 'Merriweather', serif;
  	margin-top: 50px;
  }
 
+.play-again h1{
+	color: #FF3F00;
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+}
